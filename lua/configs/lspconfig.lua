@@ -7,17 +7,12 @@ local lspconfig = require "lspconfig"
 local servers = {
   "html",
   "cssls",
-  -- "css-lsp",
-  -- "css-variables-language-server",
-  -- "docker-compose-language-service",
-  -- "lua-language-server",
-  -- "dot-language-service",
-  -- "eslint-lsp",
-  -- "golangci-lint-langserver",
+  "css_variables",
+  "docker_compose_language_service",
+  "dockerls",
   "gopls",
-  -- "tflint",
-  -- "typescript-language-server",
-  "tsserver"
+  "tsserver",
+  "terraformls"
 }
 
 -- lsps with default config

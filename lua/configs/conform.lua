@@ -5,6 +5,7 @@ local options = {
     -- html = { "prettier" },
     go = { "goimports", "gofumpt", "golangci-lint", "goimports-reviser", "golines", "gomodifytags" },
     javascript = { { "prettierd", "prettier" } },
+    terraform = { "terraform_fmt" }
   },
 
   format_on_save = {
